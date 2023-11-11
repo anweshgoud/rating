@@ -1,0 +1,103 @@
+.buttonClass{
+    color: black;
+    border-color: transparent;
+    
+}
+
+.coloring{
+    background-color: yellow;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBody{
+    height:350px;
+    width:350px;
+    background-color:#1C191A;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.how{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+#sub_heading{
+    color: #E3DBDE;
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.SubmitButton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E2571C;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+
+
+}
+
+.buttonClass{
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4B3F42;
+    color:#E3DBDE;
+    border-color: transparent;
+}
+
+#MarginPart{
+    width:270px;
+    height:300px;
+    background-color: #1C191A;
+}
+
+#icon{
+    height: 100px;
+    width: 150px;
+    background-image: url('illustration-thank-you.svg') ;
+    background-size: cover;
+    margin-left: 20%;
+}
+
+.rating{
+    color: white;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: smaller;
+
+}
+
+.rating{
+
+    width: 160px;
+    height: 20px;
+    border-style: solid;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    background-color: #2A2A2A;
+    color: orangered;
+    font-weight: lighter;
+    border-radius: 10px;
+}

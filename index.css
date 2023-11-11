@@ -1,0 +1,96 @@
+.buttonClass{
+    color: black;
+    border-color: transparent;
+}
+
+.buttonClass.coloring{
+    background-color: orangered;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.mainBody{
+    height:350px;
+    width:350px;
+    background-color:#1C191A;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.how{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+#sub_heading{
+    color: #E3DBDE;
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.SubmitButton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E2571C;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 10px;
+
+}
+
+
+#MarginPart{
+    width:300px;
+    height:300px;
+    background-color: #1C191A;
+}
+
+.BodySection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    background-image: url('icon-star.svg') ;
+    background-size: cover;
+}
+
+.buttonClass{
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #E3DBDE;
+    border-color: transparent;
+    background-color:#2A2A2A;
+
+}
+
+.SubmitButton:hover{
+    background-color: white;
+    color: orange;
+}
+
+
+
+
+
+
